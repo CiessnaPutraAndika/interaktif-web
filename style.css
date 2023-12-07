@@ -1,0 +1,405 @@
+body{
+    margin: 0;
+    padding: 0;
+    /* background-color: lightyellow; */
+}
+
+.navbar{
+    background-color: white;
+    width: 100%;
+    height: 60px;
+    box-shadow: 1px 1px 10px black;
+    margin-top: -15px;
+}
+
+.navbar .wrap .logo{
+    /* background-color: red; */
+    height: 60px;
+    display: flex;
+    justify-content: space-between;
+}
+
+.navbar .wrap .logo li{
+    list-style: none;
+    text-decoration: none;
+}
+
+.navbar .wrap .logo h1{
+    font-family: Arial, Helvetica, sans-serif;
+    list-style: none;
+    margin-top: 10px;
+    transition: 0.5s;
+}
+
+.navbar .wrap .logo p{
+    font-family: Arial, Helvetica, sans-serif;
+    margin: 20px;
+    cursor: pointer;
+}
+
+.navbar .wrap .logo h1:hover{
+    cursor: pointer;
+    font-family: Arial, Helvetica, sans-serif;
+    color: orangered;
+    /* transform: scale(1.05); */
+    transition: ease-in-out 0.5s;
+}
+
+.navbar .wrap .order button{
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    margin-right: 30px;
+    color: white;
+    transition: 0.5s;
+}
+.navbar .wrap .order button:hover{
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    margin-right: 30px;
+    color: white;
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.navbar .wrap .order button a{
+    text-decoration: none;
+    color: white;
+}
+
+.main-cont{
+    background-color: lightgray;
+    width: 100%;
+    height: 500px;
+    margin-top: 5px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    /* box-shadow: 1px 10px 15px lightslategray; */
+}
+
+.main-cont .wrap{
+    /* background-color: red; */
+    width: 1200px;
+    height: 400px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.main-cont .wrap .text h1{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-cont .wrap .text .text-icon:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    transition: 0.5s;
+}
+.box-burger .menu .text-icon:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    transition: 0.5s;
+}
+footer .mainFooter .text-icon:hover{
+    color: orangered;
+    cursor: pointer;
+    transition: ease-in-out 0.5s;
+    transition: 0.5s;
+}
+.main-cont .wrap .text p{
+    margin: 10px;
+    font-family: Arial, Helvetica, sans-serif;
+    cursor: pointer;
+    transition: 0.5s;
+}
+
+.main-cont .wrap .main-logo img{
+    width: 450px;
+    cursor: pointer;
+    transition: 0.5s;
+}
+.main-cont .wrap .main-logo img:hover{
+    transform: scale(1.2);
+    transition: all ease-in-out 0.5s;
+}
+
+.main-cont .wrap .text button{
+    border: none;
+    border-radius: 20px;
+    background-color: orange;
+    padding: 10px;
+    width: 150px;
+    margin-right: 30px;
+    margin-top: 20px;
+    margin: 10px;
+    transition: 0.5s;
+    color: black;
+}
+.main-cont .wrap .text button:hover{
+    border: none;
+    border-radius: 20px;
+    background-color: orangered;
+    padding: 10px;
+    width: 150px;
+    margin: 10px;
+    margin-right: 30px;
+    color: white;
+    transform: scale(1.1);
+    transition: ease-in-out 0.5s;
+    cursor: pointer;
+}
+
+.main-cont .wrap .text button a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-burger{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    gap: 50px 20px;
+    padding: 50px 20px;
+    /* background-color: lightyello; */
+    box-shadow: -1px -1px -10px gray;
+}
+
+.box-burger .wrap{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    /* flex-direction: row; */
+    /* background-color: red; */
+    width: 1200px;
+    height: 450px;
+}
+
+.box-burger .wrap .card img{
+    width: 300px;
+}
+
+.box-burger .wrap .card{
+    position: relative;
+    display: flex;
+    justify-content: center;
+    align-items: flex-start;
+    width: 315px;
+    max-width: 100%;
+    height: 290px;
+    background-color: white;
+    box-shadow: 1px 1px 10px #333;
+    transition: 0.5s;
+    border-radius: 20px;
+    cursor: pointer;
+}
+
+.box-burger .wrap .card .img-box{
+    position: absolute;
+    top: 5px;
+    width: 300px;
+    height: 210px;
+    overflow: hidden;
+    border-radius: 20px;
+    transition: 0.5s;
+}
+
+.box-burger .wrap .card:hover{
+    height: 335px;
+}
+
+.box-burger .wrap .card:hover .img-box{
+    top: -100px;
+    scale: 1;
+    transition: 0.5s;
+}
+
+.box-burger .wrap .card .img-box img{
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.box-burger .wrap .card .content{
+    position: absolute;
+    top: 200px;
+    width: 100%;
+    height: 60px;
+    padding: 0 30px;
+    text-align: center;
+    overflow: hidden;
+    transition: 0.5s;
+}
+
+.box-burger .wrap .card:hover .content{
+    top: 160px;
+    height: 200px;
+}
+
+.box-burger .wrap .card .content h2{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 28px;
+    transition: 0.5s;
+}
+.box-burger .wrap .card .content p{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 18px;
+    position: relative;
+    bottom: 5px;
+    transition: 0.5s;
+}
+
+.box-burger .wrap .card .content button{
+    border: none;
+    border-radius: 20px;
+    padding: 10px;
+    width: 150px;
+    background-color: orange;
+    transition: 0.5s;
+    cursor: pointer;
+}
+.box-burger .wrap .card .content button:hover{
+    transform: scale(1.1);
+    background-color: orangered;
+}
+
+.box-burger .wrap .card .content a{
+    text-decoration: none;
+    color: white;
+}
+
+.box-burger .menu h1{
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 60px;
+    margin-top: 10px;
+    margin-bottom: 20px;
+    transition: 0.5s;
+}
+
+footer{
+    background-color: lightgray;
+    bottom: 0;
+    height: 400px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+footer .mainFooter a{
+    color: black;
+    font-family: Arial, Helvetica, sans-serif;
+    font-size: 20px;
+    text-decoration: none;
+}
+
+footer .mainFooter{
+    display: flex;
+    flex-direction: row;
+    gap: 30px;
+    justify-content: center;
+    align-items: center;
+    color: black;
+}
+
+footer .mainFooter h4 a{
+    color: inherit;
+}
+
+footer .mainFooter img{
+    width: 50px;
+    min-height: 50px;
+}
+
+footer .main{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    align-items: center;
+    margin-top: 20px;
+    gap: 70px;
+    font-size: 11px;
+    font-family: Arial, Helvetica, sans-serif;
+    color: black;
+    margin-bottom: 20px;
+}
+footer .main a{
+    font-family: Arial, Helvetica, sans-serif;
+    display: flex;
+    flex-direction: row;
+    font-size: 15px;
+    color: black;
+    text-decoration: none;
+}
+
+footer .wrap{
+    /* background-color: white; */
+    width: 65%;
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: center;
+    
+}
+
+footer .text{
+    color: black;
+    font-size: 13px;
+    font-family: Arial, Helvetica, sans-serif;
+}
+
+footer .text .icon{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+footer .text .icon:hover{
+    color: blue;
+}
+
+footer .text .icon2{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+footer .text .icon2:hover{
+    color: lightseagreen;
+}
+
+footer .text .icon3{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+footer .text .icon3:hover{
+    color: aqua;
+}
+
+footer .text .icon4{
+    font-size: 25px;
+    text-decoration: none;
+    color: black;
+    transition: 0.5s;
+}
+footer .text .icon4:hover{
+    color: purple;
+}
